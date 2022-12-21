@@ -1,0 +1,12 @@
+# This is the domain I plan on using. It could change (and certainly will as I've realized inthemoment.com domain is already taken), or
+# it might just be a port. Can also use the server's IP address
+# and https should work with that.
+caddyv2.inthemoment.com
+
+# This enables gzip compression.
+encode gzip
+
+# This will redirect all incoming requests to the application running on
+# the server at port :3000. In other words, it will forward all incoming
+# requests to the Go application!
+reverse_proxy localhost:3000
