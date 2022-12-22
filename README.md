@@ -6,3 +6,6 @@ I might have to change the "inthemoment" domain name to something else as inthem
 I felt "inthemoment" captured the idea of a picture, but the current content under that domain name is something about motivational speakers - make of that what you will.
 
 No Docker related content here because I am still in the process of learning how that works in deployment. But I hope this application shows my familiarity with authentication, security, working with API's, code organization and competency with basic elements of the Go programming language.
+
+
+run with "go run ." | it's defaulted to run on localhost:3000
